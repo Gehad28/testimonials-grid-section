@@ -58,12 +58,12 @@ h2{
 
 p{
     font-size: 0.85rem;
-    opacity: 0.7;
     line-height: 1.5;
 }
 
 .name p:first-child{
     font-weight: 500;
+    opacity: 1;
 }
 
 .name p:last-child{
@@ -76,6 +76,10 @@ p{
     top: 5%;
     left: 36%;
     z-index: -1;
+}
+
+.content p{
+    opacity: 0.7;
 }
 
 .card:first-child{
